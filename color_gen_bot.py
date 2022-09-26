@@ -19,7 +19,6 @@ async def change_status():
 
 @client.event
 async def on_ready():
-#When the bot is running, display to the console
     change_status.start();
     print('Bot ready');
 
